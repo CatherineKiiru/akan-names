@@ -3,7 +3,7 @@ function submit(gender, gender){
         outputDiv.innerHTML = 'correct answer!'
     }
 else if(gender==='female'){
-    outputDiv.inner('correct answer!')
+    outputDiv.innerHTML = 'correct answer!'
 }
 }
 submit('male, female')
