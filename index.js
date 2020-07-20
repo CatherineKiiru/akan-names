@@ -1,3 +1,8 @@
+let gender = 'Male'
+prompt()
+
+
+
 function add(){
     console.log('Additional function')
 }
