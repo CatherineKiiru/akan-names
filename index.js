@@ -1,13 +1,9 @@
-let gender = 'Male'
-prompt()
-
-
-
-function add(){
-    console.log('Additional function')
+function submit(gender, gender){
+    if (gender==='male'){
+        outputDiv.innerHTML = 'correct answer!'
+    }
+else if(gender==='female'){
+    aleroutput('correct answer!')
 }
-let add1=function(){
-
-    console.log('1 am anonoymous!')
 }
-let outputDiv = document.getElementById('output').value 
+submit('male, female')
