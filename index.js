@@ -1,14 +1,14 @@
 
 
-function submit(gender1, gender2){
+function login(gender1, gender2){
     if (gender1==='male'){
-        outputDiv.innerHTML = 'correct answer!'
+        alert ('correct answer!')
     }
 else if(gender2==='female'){
-    outputDiv.innerHTML = 'correct answer!'
+    alert ('Also correct answer!')
     }
 }
-submit('male, female')
-loginForm.reset()
+login('male, female')
+
 
 
