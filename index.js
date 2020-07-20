@@ -9,4 +9,6 @@ else if(gender2==='female'){
     }
 }
 submit('male, female')
+loginForm.reset()
+
 
