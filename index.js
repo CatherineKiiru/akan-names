@@ -17,7 +17,6 @@ function submit(){
   
     let arrayFemale = [Sunday='Akosua', Monday='Adwoa', Tuesday='Abenaa',
     Wednesday='Akua', Thursday='Yaa', Friday='Afua',  Saturday='Ama'] 
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
+    
         
-    }
+    
