@@ -1,0 +1,34 @@
+.container{
+    padding: 10px;
+    justify-content: center;
+    position:relative;
+}
+.nav-container{
+    font-family: 'Sriracha', cursive;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(95, 85, 85)    
+}
+.gender{
+    box-sizing: content-box;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 6%;
+    border-style: solid;
+} 
+.date{
+    box-sizing: content-box;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+    border-style: solid;
+
+}
+.submit{
+    box-sizing: content-box;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+    
+}
