@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+
     <title>Second Project</title>
 </head>
 <body>
+    
+<div class="nav-container"> 
     <h1 class="h1 text-dark text-center mt-md-4 mt-sm-2"
-    id='test'> Find out your Akan Name today!</h1>
-    <div class="container"> 
-    <p>Akan names are derived from Ghanian culture. Frequently 
-        in Ghana, children are given their first name as a 'day 
-        name' which corresponds to the day in the week they were 
-        born.</p>
-    <p>Based on the day you were born, you can find out you Akan 
-        name today! Simply select your Gender, date of birth and 
-        click submit.</p>
-        </div>
+    id='output'> Find out your Akan Name today!</h1></div>
+
+        <div class="container"> 
+            <p>Akan names are derived from Ghanian culture. Frequently 
+            in Ghana, children are given their first name as a 'day 
+            name' which corresponds to the day in the week they were 
+            born.</p>
+            <p>Based on the day you were born, you can find out you Akan 
+            name today! Simply select your Gender, date of birth and 
+            click submit.</p>
 
 <div id="form">
 <form onsubmit="return checkName()" id="form">
@@ -35,6 +41,8 @@
             <input type="date" id="date">
          </div>
         <input type="Submit" name="" id="" value="Check your name" class="btn btn-danger">
+
+
     </form>
  </div>
 </div>

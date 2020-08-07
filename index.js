@@ -4,7 +4,7 @@ let output = document.getElementById('output')
 let form = document.getElementById('form')
 function result(day,gender){
     if(gender==='male'){
-        alert(femaleNickNames[day])
+       output.innerHTML = `Your Akan nickname is: ${maleNickNames[day]}`
     }
     else 
         alert(femaleNickNames[day])
@@ -19,7 +19,7 @@ function checkName(){
     let day = date.getDay();
     let gender = document.getElementById('gender').value;
     let today = new Date()
-    if(formDate.length>0 && date<=today){
+    if(formDate.length>0){
         result(day,gender)
 
     }else if(date>today){
