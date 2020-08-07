@@ -1,22 +1,29 @@
-
-let gender1='male'
-let gender2='female'
-
-function submit(){
-    if (gender1 ==='male' && gender2 ==='female'){
-        confirm ('correct answer!')
+let femaleNickNames = ['Akosua','Adowa','Abenaa','Akua','Yaa','Afua','Ama']
+let maleNickNames = ['Kwasi','Kwadwo', 'Kwabena','Kwaku','Yaw','Kofi','Kwame']
+let output = document.getElementById('output')
+let form = document.getElementById('form')
+function result(day,gender){
+    if(gender==='male'){
+        alert(femaleNickNames[day])
     }
-    else if (gender1 !=='male' && gender2 !=='female'){
-        alert ('Incorrect answer!')
-    }
+    else 
+        alert(femaleNickNames[day])
 }
-    submit('male, female')
 
-   let arrayMale = [Sunday='Kwasi', Monday='Kwadwo', Tuesday='Kwabena',
-    Wednesday='Kwaku', Thursday='Yaw', Friday='Kofi',  Saturday='Kwame'] 
-  
-    let arrayFemale = [Sunday='Akosua', Monday='Adwoa', Tuesday='Abenaa',
-    Wednesday='Akua', Thursday='Yaa', Friday='Afua',  Saturday='Ama'] 
-    
-        
+    form.reset()
+
+function checkName(){
+    event.preventDefault()
+    let formDate = document.getElementById('date').value;
+    let date = new Date(formDate);
+    let day = date.getDay();
+    let gender = document.getElementById('gender').value;
+    let today = new Date()
+    if(formDate.length>0 && date<=today){
+        result(day,gender)
+
+    }else if(date>today){
+        alert('Please select a your gender and date of birth')
+    }       
+}
     
